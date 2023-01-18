@@ -3,9 +3,9 @@
 
 n = int(input("Ievadi faktoriálu n: "))
 
-f = 1
-while n >= 1:
-    f*=n # f=4
-    n-=1 # n=4
+f=1
 
-print("Skaitļa faktoriāls:", f)
+for i in range(1, n+1):
+     f= f*i 
+    
+print(f)

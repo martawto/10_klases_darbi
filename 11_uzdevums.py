@@ -8,9 +8,9 @@ judze = 1.609
 x=5
 b=7.5
 
-print("jūdzes | km")
-print("-----")
+print("jūdzes \t| km")
+print("--------------")
 
 while x <= b:
-    print(x, " | ", x * judze)
+    print(round(x, 2), " \t| ",round( x * judze, 2))
     x += h

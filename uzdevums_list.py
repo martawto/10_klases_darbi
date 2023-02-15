@@ -42,5 +42,11 @@ print("Mēneša vidējā temperatūra ir",  )
 #4) siltāko dienu, 
 #5) aukstāko dienu,
 #6) izvadīt tikai katras nedēļas nogales dienu temperatūras (sestdienas, svētdienas) (uzdevuma risinājumā ir jāizmanto cikls),
+for i in range (6, 10, 7):
+    if i > 31:
+        break
+    print(i + 1,"diena"  , saraksts [i])
+    print(i + 2,"diena"  , saraksts [i+1])
+
 #7) noskaidrot siltāko nedēļas nogali un vēsāko, t.i. jāsalīdzina nedēļas nogaļu vidējās temperatūras.
 

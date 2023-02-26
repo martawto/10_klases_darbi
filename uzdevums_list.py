@@ -12,8 +12,6 @@ for i in range(len(temperatura_diena)):
 
 
 
-
-
 sum = 0
 for i in temperatura_diena:
     sum+= i

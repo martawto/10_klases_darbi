@@ -1,6 +1,7 @@
 # Atrast pirmo n saskaitāmo summu, ja n vērtību ievada no klaviatūras.
 # S= 1 + 1* 2 + 1* 2* 3 + .... + 1* 2* 3 *.... *n
 
+
 # ja piem n ir 4, tas summa ir 1 + 2 + 6 = 9
 
 
